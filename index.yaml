@@ -1,81 +1,11 @@
 apiVersion: v1
 entries:
-  admission-controller:
-  - apiVersion: v2
-    appVersion: 3.8.3
-    created: "2021-11-25T08:54:33.402184909Z"
-    description: Sysdig Admission Controller using Sysdig Secure inline image scanner
-    digest: 70be4e4e7aa4c7bfdc6f1781324ae7a89150f4b76d59c1a1f28156f12021a9e1
-    home: https://sysdiglabs.github.io/admission-controller/
-    icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
-    maintainers:
-    - email: alvaro.iradier@sysdig.com
-      name: airadier
-    - email: nestor.salceda@sysdig.com
-      name: nestorsalceda
-    - email: fede.barcelona@sysdig.com
-      name: tembleking
-    name: admission-controller
-    type: application
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/admission-controller-0.5.9/admission-controller-0.5.9.tgz
-    version: 0.5.9
-  cloud-bench:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2021-11-25T08:54:33.5208805Z"
-    description: Sysdig Cloud Bench
-    digest: b320bfdcdfc5b291fcdd14af4cfed0ad74cb92bccfcf5c14b1f975be180814a4
-    home: https://sysdig.com
-    icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
-    maintainers:
-    - email: yathindra.naik@sysdig.com
-      name: yathi-sysdig
-    - email: alvaro.iradier@sysdig.com
-      name: airadier
-    name: cloud-bench
-    type: application
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/cloud-bench-0.1.2/cloud-bench-0.1.2.tgz
-    version: 0.1.2
-  cloud-connector:
-  - apiVersion: v2
-    appVersion: 0.12.3
-    created: "2021-11-25T08:54:33.664885788Z"
-    description: Sysdig Cloud Connector
-    digest: bca2d0b31d9b77c526fb2052ae95759cfc02a23b48f21bec84ddf38f9fa82434
-    home: https://sysdiglabs.github.io/cloud-connector
-    maintainers:
-    - email: nestor.salceda@sysdig.com
-      name: nestorsalceda
-    name: cloud-connector
-    type: application
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/cloud-connector-0.5.1/cloud-connector-0.5.1.tgz
-    version: 0.5.1
-  cloud-scanning:
-  - apiVersion: v2
-    appVersion: 0.11.3
-    created: "2021-11-25T08:54:33.794318605Z"
-    description: Sysdig Cloud Scanning
-    digest: b2cb545fbbafaf867efee2593787cfc57e2f1c61e625178c80b5da6c3a27797e
-    home: https://sysdiglabs.github.io/cloud-connector
-    maintainers:
-    - email: alvaro.iradier@sysdig.com
-      name: airadier
-    - email: nestor.salceda@sysdig.com
-      name: nestorsalceda
-    name: cloud-scanning
-    type: application
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/cloud-scanning-0.2.5/cloud-scanning-0.2.5.tgz
-    version: 0.2.5
   harbor-scanner-sysdig-secure:
   - apiVersion: v2
-    appVersion: 0.4.1
-    created: "2021-11-25T08:54:33.925715645Z"
+    appVersion: 0.5.0
+    created: "2021-12-02T10:33:15.603283309Z"
     description: Harbor Scanner for Sysdig Secure
-    digest: 1f1df99e82eed06aae46bb0ecda8c60e14a9320736b4d018cbf1051136b156d0
+    digest: bc96da277216e8d60d70a51fc6ac0af446baeee860df80f7d2d499e2f6b15613
     home: https://github.com/sysdiglabs/harbor-scanner-sysdig-secure
     icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
     maintainers:
@@ -86,30 +16,14 @@ entries:
     name: harbor-scanner-sysdig-secure
     type: application
     urls:
-    - https://github.com/jcbbc/charts/releases/download/harbor-scanner-sysdig-secure-0.2.8/harbor-scanner-sysdig-secure-0.2.8.tgz
-    version: 0.2.8
-  registry-scanner:
-  - apiVersion: v2
-    appVersion: 0.1.1
-    created: "2021-11-25T08:54:34.049586997Z"
-    description: Sysdig Registry Scanner
-    digest: ecec2c2ef25f865880aa0daf97b25aeb1e762e1b5dd906fddb7af7469863d947
-    home: https://sysdiglabs.github.io/registry-scanner/
-    icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
-    maintainers:
-    - email: alvaro.iradier@sysdig.com
-      name: airadier
-    name: registry-scanner
-    type: application
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/registry-scanner-0.0.25/registry-scanner-0.0.25.tgz
-    version: 0.0.25
+    - https://github.com/jcbbc/charts/releases/download/harbor-scanner-sysdig-secure-0.3.0/harbor-scanner-sysdig-secure-0.3.0.tgz
+    version: 0.3.0
   sysdig:
   - apiVersion: v1
     appVersion: 12.1.1
-    created: "2021-11-25T08:54:34.164968049Z"
+    created: "2021-12-02T10:33:15.755536986Z"
     description: Sysdig Monitor and Secure agent
-    digest: 0c38eed7fbd994764d2d86921da180e65a4c4ec5978fd8f81578722f2c4ed877
+    digest: b983a1f79f4b12b8b90e9c73a4fc219a872db8fe1c3eea482be0abcfe90e7574
     home: https://www.sysdig.com/
     icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
     keywords:
@@ -135,35 +49,6 @@ entries:
     - https://app.sysdigcloud.com/#/settings/user
     - https://github.com/draios/sysdig
     urls:
-    - https://github.com/jcbbc/charts/releases/download/sysdig-1.12.37/sysdig-1.12.37.tgz
-    version: 1.12.37
-  sysdig-stackdriver-bridge:
-  - apiVersion: v1
-    appVersion: 0.0.5
-    created: "2021-11-25T08:54:34.285372961Z"
-    description: Sysdig Monitor and Secure agent
-    digest: e1ee5eab0274ce11af2cfeafd25050c44452fe202c30b8710ec38ba0b25e1e76
-    home: https://www.sysdig.com/
-    icon: https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/Shovel_600px.png
-    keywords:
-    - monitoring
-    - security
-    - alerting
-    - metric
-    - troubleshooting
-    - run-time
-    maintainers:
-    - email: jorge.salamero@sysdig.com
-      name: bencer
-    - email: nestor.salceda@sysdig.com
-      name: nestorsalceda
-    - email: scott@echoboomer.net
-      name: echoboomer
-    name: sysdig-stackdriver-bridge
-    sources:
-    - https://app.sysdigcloud.com/#/settings/user
-    - https://github.com/draios/sysdig
-    urls:
-    - https://github.com/jcbbc/charts/releases/download/sysdig-stackdriver-bridge-1.1.0/sysdig-stackdriver-bridge-1.1.0.tgz
-    version: 1.1.0
-generated: "2021-11-25T08:54:34.285380661Z"
+    - https://github.com/jcbbc/charts/releases/download/sysdig-1.12.40/sysdig-1.12.40.tgz
+    version: 1.12.40
+generated: "2021-12-02T10:33:15.755557787Z"
